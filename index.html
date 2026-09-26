@@ -3,89 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webseite in Planung</title>
-
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: Arial, Helvetica, sans-serif;
-            background: #f4f6f8;
-            color: #1f2937;
-            text-align: center;
-        }
-
-        .container {
-            max-width: 650px;
-            padding: 40px 25px;
-        }
-
-        .icon {
-            font-size: 80px;
-            margin-bottom: 25px;
-        }
-
-        h1 {
-            font-size: 42px;
-            margin-bottom: 18px;
-        }
-
-        p {
-            font-size: 18px;
-            line-height: 1.6;
-            color: #6b7280;
-        }
-
-        .notice {
-            margin-top: 30px;
-            padding: 15px 20px;
-            border-radius: 10px;
-            background: white;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-            font-size: 15px;
-            color: #4b5563;
-        }
-
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 32px;
-            }
-
-            .icon {
-                font-size: 65px;
-            }
-
-            p {
-                font-size: 16px;
-            }
-        }
-    </style>
+    <title>Familie Stübler</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="https://assets.stuebler.org/style.css?v=2">
+    <!-- Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
-<body>
+<body class="page-root">
 
-    <main class="container">
-        <div class="icon">🚧</div>
+<header class="navbar">
+  <div class="nav-left">
+    <a href="/" class="nav-item">
+      <i class="fa-solid fa-home"></i>
+      <span>Home - Familie</span>
+    </a>
+  </div>
 
-        <h1>Webseite in Planung</h1>
+  <a class="button" href="https://privat.stuebler.org">Login</a>
+</header>
+<header class="page-header">
+    <h1>Familie Stübler</h1>
+    <p>Willkommen auf unserer Familien-Webseite</p>
+</header>
 
+
+<main class="grid">
+
+<!--
+    <a class="card" href="/links">
+        <div class="icon">👪</div>
+        <h2>Family</h2>
+        <p>Links, die die ganze Familie betreffen</p>
+    </a>-->
+
+    <a class="card" href="https://georg.stuebler.org">
+        <div class="icon">🧔‍♂️</div>
+        <h2>Georg</h2>
+        <p>Über Georg und seine Projekte</p>
+    </a>
+
+    <a class="card" href="https://sabine.stuebler.org">
+        <div class="icon">👩</div>
+        <h2>Sabine</h2>
+        <p>Lötkurs und Wohnunterstützung</p>
+    </a>
+
+    <a class="card" href="https://moritz.stuebler.org">
+        <div class="icon">👦</div>
+        <h2>Moritz</h2>
+        <p>Über Moritz und seine Projekte</p>
+    </a>
+
+<!--
+    <a class="card" href="https://oe6.oevsv.at/ortsstellen/adl623/">
+        <div class="icon">📡</div>
+        <h2>Amateurfunk</h2>
+        <p>Alles über OE6 ADL623</p>
+    </a>
+
+    <a class="card private" href="https://privat.stuebler.org">
+        <div class="icon">🔒</div>
+        <h2>Familienbereich</h2>
         <p>
-            Diese Webseite befindet sich derzeit noch im Aufbau
-            und ist momentan nicht aufrufbar.
+            Geschützter Bereich:
+            <br>• private Fotos
+            <br>• Dokumente
+            <br>• interne Termine
         </p>
+    </a>
+-->
 
-        <div class="notice">
-            Bitte schauen Sie später wieder vorbei.
-        </div>
-    </main>
+</main>
+
+
+<footer>
+    © Familie Stübler
+</footer>
 
 </body>
 </html>
